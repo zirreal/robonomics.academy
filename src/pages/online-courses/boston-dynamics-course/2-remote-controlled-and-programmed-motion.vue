@@ -50,7 +50,7 @@ get_vision_tform_body(state_client.get_robot_state().kinematic_state.transforms_
               </pre>
               {{$ts('Check usage')}} <g-link to="https://github.com/boston-dynamics/spot-sdk/blob/master/python/examples/frame_trajectory_command/frame_trajectory_command.py">{{$ts('here')}}</g-link>.<br/>
             </p>
-            <p>{{$ts('Attention! The example considers robot movement relative to the current position. In your case you must specify movements relative to the point where robot was turned on. That means you can set ')}}<code>goal_x</code> {{$ts('and')}} <code>goal_y</code> {{$ts('values from the task.')}}</p>
+            <p>{{$ts('Attention! The example considers robot movement relative to the current position. In your case you must specify movements relative to the point where robot was turned on. That means you can set')}} <code>goal_x</code> {{$ts('and')}} <code>goal_y</code> {{$ts('values from the task.')}}</p>
             <p>
               - {{$ts('Velocity Command ')}}<br/>
               <pre v-highlightjs>

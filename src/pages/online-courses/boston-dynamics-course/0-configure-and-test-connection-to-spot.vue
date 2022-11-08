@@ -16,7 +16,7 @@
       <section class="container__narrow">
         <h2>{{$ts('The challenge')}}</h2>
         <p>{{$ts('Our goal is to get answers from Spot to our')}} <g-link
-            to="https://en.wikipedia.org/wiki/Ping_(networking_utility)">{{$ts('ping')}}</g-link> {{$ts(`signals. We use Yggdrasil Network to expose Spot to the internet, that means we will need to configure Yggdrasil Network support on your computer first.`)}}</p>
+            to="https://en.wikipedia.org/wiki/Ping_(networking_utility)">{{$ts('ping')}}</g-link>{{$ts(`signals. We use Yggdrasil Network to expose Spot to the internet, that means we will need to configure Yggdrasil Network support on your computer first.`)}}</p>
       </section>
       <section class="container__reg">
         <h2>{{$ts('Instructions')}}</h2>

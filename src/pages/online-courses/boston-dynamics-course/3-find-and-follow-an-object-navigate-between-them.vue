@@ -42,7 +42,7 @@ vision_tform_fiducial = get_a_tform_b(fiducial.transforms_snapshot, VISION_FRAME
           </li>
           <li>
             <p>{{$ts('Develop and demonstrate your solution to the challenge.')}}</p>
-            <p>{{$ts('We create')}} <g-link to="https://dev.bostondynamics.com/python/examples/estop/readme">{{$ts('E-Stop endpoint')}}</g-link> {{$ts('for you, so you should not create it.')}} {{$ts('For Spot authentication use username and password from')}} <code>/home/student/credentials</code> {{$ts('file')}}. {{$ts('Spot address is ')}}<code>192.168.50.3</code>.</p>
+            <p>{{$ts('We create')}} <g-link to="https://dev.bostondynamics.com/python/examples/estop/readme">{{$ts('E-Stop endpoint')}}</g-link> {{$ts('for you, so you should not create it.')}} {{$ts('For Spot authentication use username and password from')}} <code>/home/student/credentials</code> {{$ts('file')}}. {{$ts('Spot address is')}} <code>192.168.50.3</code>.</p>
           </li>
         </List>
       </section>
